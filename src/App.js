@@ -1,5 +1,4 @@
 import React from 'react';
-import Todo from './components/Todo'
 
 function App() {
  
@@ -7,7 +6,7 @@ function App() {
   //rendering
   return (
     <div className="App">
-      <Todo/>
+      
     </div>
   );
 }
