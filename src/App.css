@@ -34,7 +34,7 @@ nav
 padding:60px 30px 0px 30px ;
 flex:var(--sidebar-flex);
 background: rgb(238,103,143);
-background: linear-gradient(180deg, rgba(238,103,143,1) 50%, rgba(132,124,252,1) 80%);
+background: linear-gradient(180deg, rgba(225,225,225,1) 50%, rgba(40,40,40,1) 80%);
 }
 
 
@@ -55,4 +55,38 @@ nav ul li
 .active
 {
 font-weight: bolder;
+}
+
+
+.subtopic
+{
+margin:10px 10px 30px 10px !important;
+}
+p
+{
+font-size: var(--fontsize-p);
+}
+h1,h2,h3, h4,p
+{
+margin: 10px;
+}
+
+.box
+{
+border:0px solid #9a9b9c;
+display: flex;
+margin:30px 0px 30px 0px;
+}
+.box:hover
+{
+color: #1b1d20;
+background-color: #000000;
+box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+
+.profilepic{
+  position: relative;  
+  margin: 30px;
+  border-radius: 50%;
 }
